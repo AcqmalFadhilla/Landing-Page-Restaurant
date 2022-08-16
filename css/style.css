@@ -1,0 +1,349 @@
+:root {
+    --color-purpel: #5A4FCF;
+    --color-orange: #FFB800;
+    --color-semi-orange: #FDC886;
+    --color-gray: #656565;
+    --color-orange2: rgba(253, 200, 134, 0.15);
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* style nav */
+nav {
+    margin-top: 16px;
+}
+
+.nav-item:hover {
+    text-decoration: underline var(--color-purpel);
+}
+
+/* style nav end */
+/* style slide */
+
+
+.item-slide__img1,
+.item-slide__img2 {
+    border-radius: 24px;
+    height: 564px;
+    width: 1124px;
+}
+
+.carousel {
+    margin-top: 72px
+}
+
+.card-float {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    margin-left: -75px;
+}
+
+.item-snap {
+    padding-left: 10%;
+}
+.carousel-slide {
+    margin: auto;
+    width: 75%;
+}
+
+/* style card */
+.card-star {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.card-title__star {
+    display: inline;
+    font-weight: bold;
+    color: var(--color-orange);
+}
+
+.card-text__star {
+    display: inline;
+    color: var(--color-gray);
+    font-weight: lighter;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-text {
+    display: inline;
+    color: var(--color-gray);
+    font-size: 18px;
+}
+
+.card-text__img {
+    display: inline-block;
+    margin-top: -4px;
+}
+
+.btn-nav {
+    margin-left: 14px;
+}
+
+.btn-card {
+    margin-top: 30px;
+    margin-bottom: 8px;
+    height: 56px;
+    line-height: 40px;
+}
+
+.card-text__title {
+    margin-top: -8px;
+}
+
+.card-text__info {
+    font-size: 16px;
+    display: inline-block;
+    color: var(--color-gray);
+}
+
+/* style slide end  */
+/* style card */
+.heading-card__benefit {
+    margin: 56px 0;
+}
+
+.card-text__benefit,
+.subtitle-restaurant {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-purpel);
+
+}
+
+.card-title__benefit,
+.title-restaurant {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.container-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0
+}
+
+.img-border {
+    background-color: var(--color-orange2);
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon {
+    width: 58px;
+    height: 58px;
+}
+
+.card-title__text-benefit {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-text__text-benefit {
+    font-size: 16px;
+    color: var(--color-gray);
+}
+
+.button-viewDetail__active {
+    margin-top: 32px;
+    height: 56px;
+    line-height: 56px;
+    background-color: var(--color-semi-orange);
+    border-radius: 12px 12px 24px 24px;
+    cursor: pointer;
+}
+
+.button-viewDetail {
+    margin-top: 32px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 12px 12px 24px 24px;
+    cursor: pointer;
+}
+
+.button-viewDetail:hover {
+    margin-top: 32px;
+    height: 56px;
+    line-height: 56px;
+    background-color: var(--color-orange);
+    border-radius: 12px 12px 24px 24px;
+    cursor: pointer;
+}
+
+.button-viewDetail__active:hover {
+    background-color: var(--color-orange);
+}
+
+.button-viewDetail__active a {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button-viewDetail a {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* restaurant */
+.container-restaurant {
+    margin-top: 7%;
+}
+
+.card-img__expert_chef {
+    margin-left: 5%;
+}
+
+.text-body__restaurant {
+    font-size: 16px;
+    margin: 16px 0 32px 0;
+    color: var(--color-gray);
+}
+
+.card-star__restaurant {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.card-title__restaurant {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-text__restaurant {
+    display: inline;
+    color: var(--color-gray);
+    font-size: 16px;
+}
+
+.title-text__restaurant {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.card-restaurant__active {
+    width: 400px;
+    height: 475px;
+    border-radius: 24px !important;
+}
+
+.card-restaurant {
+    width: 215px;
+    height: 475px;
+    border-radius: 24px !important;
+}
+
+.card-img__restaurant {
+    border-radius: 24px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.card-restaurant {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body__restaurant {
+    width: 352px;
+    height: 131px;
+    margin-top: 85%;
+}
+
+.border-arrow {
+    background-color: var(--color-semi-orange);
+    border-radius: 12px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-arrow:hover {
+    background-color: var(--color-orange);
+}
+
+/* restaurant near */
+.card-restaurant__near {
+    width: 415px;
+    border-radius: 24px !important;
+}
+
+.card-body__restaurant_near {
+    width: 379px;
+    height: 134px;
+    margin-top: 62%;
+}
+
+.btn-restaurant__near {
+    margin-top: 32px;
+}
+
+.card-img__expert_chef {
+    width: 560px;
+    border-radius: 24px !important;
+}
+
+.card-img__shield {
+    width: 50px;
+    height: 50px;
+}
+
+.card-title__expert_chef {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-text__expert_chef {
+    display: inline;
+    color: var(--color-gray);
+    font-size: 16px;
+}
+
+.card-float__experience_chef {
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    margin-left: 75%;
+}
+
+.card-float__restaurant {
+    position: absolute;
+    z-index: 3;
+    top: 72%;
+    margin-left: -12% !important;
+
+}
+
+.card-img__restaurant-card {
+    width: 94px;
+    height: 132px;
+    border-radius: 12px;
+}
+
+.card-link {
+    margin-top: 42px;
+}
